@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CariCepat - Mesin Pencari Sederhana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="logo">Cari<span>Cepat</span></h1>
+    
+    <form id="searchForm" class="search-box">
+      <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Ketik kata kunci pencarian..." 
+        required 
+        autocomplete="off"
+      >
+      <button type="submit">Cari</button>
+    </form>
+
+    <div id="results" class="results-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
